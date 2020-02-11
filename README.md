@@ -64,7 +64,7 @@ $  rustup component add rust-src --toolchain=nightly
 $  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 $  brew install qemu
-
+# 如果为Ubuntu，则使用apt安装QMEU
 $  sudo apt update && sudo apt install qemu-system # or sudo apt install qemu
 
 # 如果为Windows，推荐使用Windows10的WSL(Linux子系统)
